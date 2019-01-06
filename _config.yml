@@ -1,24 +1,26 @@
 # Site settings
-name: Matthew Kipp
+title: Matthew Kipp
 email: kippmr@gmail.com
-#canonical_url: https://kippmr.com
+url: https://kippmr.com
 keywords: "Software Development, C#, Java, JavaScript, ASP .NET, Angular, React, Agile Project Management"
 skills: "Full Stack Software Developer <br>McMaster University"
-baseurl:
+meta_author: Matthew Kipp
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-# You should replace these with your social networks, of course. :)
-social:
-  - title: linkedin
-    url: https://www.linkedin.com/in/kippmr/
-  - title: github
-    url: https://github.com/kippmr
-    
 # Google webmaster tools
 google_verify:
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -27,7 +29,26 @@ color:
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
+# Footer settings
+footer:
+  copyright: Matthew Kipp
+  location: 
+  social: Around the Web
+  credits: 
 
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/kippmr/
+  - title: github
+    url: https://github.com/kippmr
+
+# Postal address (add as many lines as necessary)
+address:
+  - line:
+
+# Credits content
+credits: ''
 
 # Build settings
 markdown: kramdown
